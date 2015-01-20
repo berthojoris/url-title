@@ -4,6 +4,8 @@ A library based on Codeigniter
 # How to use
 
 ```php
+use UrlTitle\Convert;
+
 $title = new Convert();
 $title->input("Albertho Malaquena Joris", 'dash', FALSE);
 $output = $title->output;
