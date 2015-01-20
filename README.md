@@ -3,11 +3,13 @@ A library based on Codeigniter
 
 # How to use
 
-[php]
+```php
 $title = new Convert();
 $title->input("Albertho Malaquena Joris", 'dash', FALSE);
 $output = $title->output;
 echo $output;
-//Output
+//Output (if param set FALSE)
 albertho-malaquena-joris
-[/php]
+//Output (if param set TRUE)
+Albertho-Malaquena-Joris
+```
